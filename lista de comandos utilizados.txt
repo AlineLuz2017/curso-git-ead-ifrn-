@@ -1,0 +1,25 @@
+comando
+pwd: ele mostra o diretorio que se encontrar (/c/Users/Ale)
+cd
+(No CMD, cd sem argumentos mostra o diretório atual.)
+git --version
+mkdir curso-git
+cd curso-git
+git init --initial-branch=main
+ls ou ls -a
+git config user.name "Alineluz0395"
+git congig user.name "alineaprigio2015@gmail.com"
+git config --list -- local
+git --list --global
+ echo "Nome: Aline aprigio" > dados.txt
+ echo "Matrícula: 20241158060060" >> dados.txt
+ls
+git status
+git add (nome do arquivo)
+git status
+git commit -m"meu o primeiro commit" 
+git log
+git remote add (link)
+sair : q
+ctrl +l : lista a tela
+ git remote set-url origin (link)
