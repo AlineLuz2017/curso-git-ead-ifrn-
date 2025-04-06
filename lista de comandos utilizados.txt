@@ -1,7 +1,5 @@
 comando
-pwd: ele mostra o diretorio que se encontrar (/c/Users/Ale)
-cd
-(No CMD, cd sem argumentos mostra o diretório atual.)
+pwd: ele mostra o diretorio que se encontrar
 git --version
 mkdir curso-git
 cd curso-git
@@ -20,6 +18,11 @@ git status
 git commit -m"meu o primeiro commit" 
 git log
 git remote add (link)
-sair : q
-ctrl +l : limpa a tela
  git remote set-url origin (link)
+git push -u origin main
+git add .
+git status
+git commit -m "meu segundo commit"
+git push -u origin main
+
+
