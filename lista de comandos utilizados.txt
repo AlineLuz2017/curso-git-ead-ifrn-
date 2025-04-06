@@ -7,12 +7,12 @@ mkdir curso-git
 cd curso-git
 git init --initial-branch=main
 ls ou ls -a
-git config user.name "Alineluz0395"
-git congig user.name "alineaprigio2015@gmail.com"
+git config user.name "nome"
+git congig user.name "matrícula"
 git config --list -- local
 git --list --global
- echo "Nome: Aline aprigio" > dados.txt
- echo "Matrícula: 20241158060060" >> dados.txt
+ echo "Nome: (nome) " > dados.txt
+ echo "Matrícula:(numero da matrícula)" >> dados.txt
 ls
 git status
 git add (nome do arquivo)
@@ -21,5 +21,5 @@ git commit -m"meu o primeiro commit"
 git log
 git remote add (link)
 sair : q
-ctrl +l : lista a tela
+ctrl +l : limpa a tela
  git remote set-url origin (link)
